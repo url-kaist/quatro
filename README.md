@@ -33,7 +33,8 @@ catkin build
 ```
 + (Optional, but recommended) with `tbb`
 ```shell
-catkin build -DQUATRO_TBB=ON
+catkin build -DQUATRO_TBB=ON #which is default
+catkin build -DQUATRO_TBB=OFF #to turn of TBB
 ```
 + (Optional) to enable `std::cout` for debugging,
 ```shell

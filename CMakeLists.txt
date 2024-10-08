@@ -29,6 +29,7 @@ if(teaserpp_FOUND)
 endif()
 
 #### for tbb
+option(QUATRO_TBB "Enable TBB support" ON)
 if(QUATRO_TBB)
   message(WARNING "Quatro with TBB")
   list(APPEND CMAKE_MODULE_PATH /usr/local/include /usr/include)
